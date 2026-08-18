@@ -107,14 +107,14 @@
     <!-- Main Content (Accordions) -->
     <main class="container mx-auto px-4 py-12 max-w-4xl space-y-4 relative z-20 -mt-8">
 
-        <!-- 1. Training Record (The 7 Courses) -->
+        <!-- 1. Training Record (The 8 Courses) -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
             <button onclick="toggleAccordion('trainings')" class="accordion-btn w-full px-6 py-5 flex justify-between items-center bg-white text-secondary group">
                 <div class="flex items-center gap-4">
                     <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-emerald-600 group-hover:text-white transition"><i class="fas fa-chalkboard-teacher rtl-flip"></i></div>
                     <div class="text-right-to-left">
                         <h2 class="text-xl font-bold"><span class="ar-text">سجل البرامج التدريبية المنجزة</span><span class="en-text">Completed Training Programs</span></h2>
-                        <p class="text-sm text-slate-500"><span class="ar-text">7 برامج تدريبية موثقة</span><span class="en-text">7 Verified Training Programs</span></p>
+                        <p class="text-sm text-slate-500"><span class="ar-text">8 برامج تدريبية موثقة</span><span class="en-text">8 Verified Training Programs</span></p>
                     </div>
                 </div>
                 <i id="icon-trainings" class="fas fa-chevron-down text-slate-400 transition-transform duration-300"></i>
@@ -122,7 +122,15 @@
             <div id="trainings" class="accordion-content px-6 border-t border-slate-100 bg-slate-50">
                 <div class="grid grid-cols-1 gap-4 text-right-to-left">
                     
-                    <!-- Course 1 -->
+                    <!-- Course 1 (New Added) -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
+                        <div>
+                            <h3 class="font-bold text-secondary text-lg"><span class="ar-text">من التطوع إلى التأثير: مهارات الشباب ودورها في المجتمع</span><span class="en-text">From Volunteering to Impact: Youth Skills and Their Role in Society</span></h3>
+                            <p class="text-sm text-slate-600 mb-2"><span class="ar-text">منصة نحن | 12 ساعة تدريبية | 14 متدرب</span><span class="en-text">Nahno Platform | 12 Training Hours | 14 Trainees</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Course 2 -->
                     <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
                         <div>
                             <h3 class="font-bold text-secondary text-lg"><span class="ar-text">الذكاء الاصطناعي والبيئة</span><span class="en-text">AI & Environment</span></h3>
@@ -131,7 +139,7 @@
                         <a href="https://www.nahno.org/project_volunteer/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-36030" target="_blank" class="px-4 py-2 bg-slate-100 hover:bg-primary hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-slate-200">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 2 -->
+                    <!-- Course 3 -->
                     <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
                         <div>
                             <h3 class="font-bold text-secondary text-lg"><span class="ar-text">العمل المناخي</span><span class="en-text">Climate Action</span></h3>
@@ -140,7 +148,7 @@
                         <a href="https://www.nahno.org/project_volunteer/%D8%A7%D9%84%D8%B9%D9%80%D9%85%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%D9%8A-35124" target="_blank" class="px-4 py-2 bg-slate-100 hover:bg-primary hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-slate-200">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 3 -->
+                    <!-- Course 4 -->
                     <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
                         <div>
                             <h3 class="font-bold text-secondary text-lg"><span class="ar-text">الممارسات الصديقة للبيئة</span><span class="en-text">Eco-friendly Practices</span></h3>
@@ -149,7 +157,7 @@
                         <a href="https://www.nahno.org/project_volunteer/%D8%A7%D9%84%D9%85%D9%85%D8%A7%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-33018" target="_blank" class="px-4 py-2 bg-slate-100 hover:bg-primary hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-slate-200">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 4 -->
+                    <!-- Course 5 -->
                     <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
                         <div>
                             <h3 class="font-bold text-secondary text-lg"><span class="ar-text">التنمية المستدامة وحماية البيئة</span><span class="en-text">Sustainable Dev & Env Protection</span></h3>
@@ -158,7 +166,7 @@
                         <a href="https://www.nahno.org/project_volunteer/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D9%85%D8%A9-%D9%88%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-31364" target="_blank" class="px-4 py-2 bg-slate-100 hover:bg-primary hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-slate-200">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 5 -->
+                    <!-- Course 6 -->
                     <div class="bg-yellow-50 p-5 rounded-xl border border-yellow-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4 relative overflow-hidden">
                         <i class="fas fa-crown absolute top-2 right-2 text-yellow-200 text-4xl rtl-flip opacity-50 pointer-events-none"></i>
                         <div class="relative z-10">
@@ -166,10 +174,10 @@
                             <p class="text-sm text-slate-700 font-medium mb-1"><span class="ar-text">مؤسسة ولي العهد (مكتب المفرق)</span><span class="en-text">Crown Prince Foundation (Mafraq)</span></p>
                             <p class="text-sm text-slate-600"><span class="ar-text">4 ساعات التدريب | 11 متدرب</span><span class="en-text">4 Hours | 11 Trainees</span></p>
                         </div>
-                        <a href="https://www.nahno.org/project_volunteer/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D9%80%D9%80%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-49715" target="_blank" class="relative z-10 px-4 py-2 bg-white hover:bg-yellow-500 hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-yellow-300">الرابط / Link</a>
+                        <a href="https://www.nahno.org/project_volunteer/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%80%D9%80%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-49715" target="_blank" class="relative z-10 px-4 py-2 bg-white hover:bg-yellow-500 hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-yellow-300">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 6 -->
+                    <!-- Course 7 -->
                     <div class="bg-yellow-50 p-5 rounded-xl border border-yellow-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4 relative overflow-hidden">
                         <i class="fas fa-crown absolute top-2 right-2 text-yellow-200 text-4xl rtl-flip opacity-50 pointer-events-none"></i>
                         <div class="relative z-10">
@@ -180,7 +188,7 @@
                         <a href="https://www.nahno.org/project_volunteer/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%B0%D9%80%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A-51280" target="_blank" class="relative z-10 px-4 py-2 bg-white hover:bg-yellow-500 hover:text-white text-slate-700 text-sm font-bold rounded-lg transition text-center shrink-0 border border-yellow-300">الرابط / Link</a>
                     </div>
 
-                    <!-- Course 7 -->
+                    <!-- Course 8 -->
                     <div class="bg-yellow-50 p-5 rounded-xl border border-yellow-200 shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4 relative overflow-hidden">
                         <i class="fas fa-crown absolute top-2 right-2 text-yellow-200 text-4xl rtl-flip opacity-50 pointer-events-none"></i>
                         <div class="relative z-10">
@@ -362,7 +370,7 @@
                     <div class="w-12 h-12 bg-pink-50 text-pink-500 rounded-xl flex items-center justify-center text-xl group-hover:bg-pink-500 group-hover:text-white transition"><i class="fas fa-certificate rtl-flip"></i></div>
                     <div class="text-right-to-left">
                         <h2 class="text-xl font-bold"><span class="ar-text">الشهادات المعتمدة</span><span class="en-text">Certifications</span></h2>
-                        <p class="text-sm text-slate-500"><span class="ar-text">9 شهادات مهنية موثقة</span><span class="en-text">9 Verified Certifications</span></p>
+                        <p class="text-sm text-slate-500"><span class="ar-text">10 شهادات مهنية موثقة</span><span class="en-text">10 Verified Certifications</span></p>
                     </div>
                 </div>
                 <i id="icon-certs" class="fas fa-chevron-down text-slate-400 transition-transform duration-300"></i>
@@ -377,7 +385,8 @@
                     <li class="text-sm text-slate-700 border-b border-slate-100 pb-2 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>تخصص تحليل البيانات وBI</strong> - جامعة الحسين التقنية (أبريل 2025)</span><span class="en-text"><strong>Data Analytics & BI</strong> - HTU (Apr 2025)</span></div></li>
                     <li class="text-sm text-slate-700 border-b border-slate-100 pb-2 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>التدريب الأساسي لمتطوعي الدفاع المدني</strong> - THW (مايو 2025)</span><span class="en-text"><strong>Civil Defence Basic</strong> - THW (May 2025)</span></div></li>
                     <li class="text-sm text-slate-700 border-b border-slate-100 pb-2 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>ورشة التفكير التصميمي</strong> - Save The Children (يوليو 2025)</span><span class="en-text"><strong>Design Thinking</strong> - Save The Children (Jul 2025)</span></div></li>
-                    <li class="text-sm text-slate-700 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>TOT العدالة المناخية في الجامعات</strong> - AFSC (أغسطس 2025)</span><span class="en-text"><strong>Climate Justice TOT</strong> - AFSC (Aug 2025)</span></div></li>
+                    <li class="text-sm text-slate-700 border-b border-slate-100 pb-2 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>TOT العدالة المناخية في الجامعات</strong> - AFSC (أغسطس 2025)</span><span class="en-text"><strong>Climate Justice TOT</strong> - AFSC (Aug 2025)</span></div></li>
+                    <li class="text-sm text-slate-700 flex items-start gap-2"><i class="fas fa-check-circle text-primary mt-1"></i> <div><span class="ar-text"><strong>أكاديمية السياسة الدولية</strong> - وكالات طلاب هارفارد (يوليو 2026)</span><span class="en-text"><strong>Academy of International Politics</strong> - Harvard Student Agencies (Jul 2026)</span></div></li>
                 </ul>
             </div>
         </div>
@@ -433,3 +442,4 @@
     </script>
 </body>
 </html>
+
